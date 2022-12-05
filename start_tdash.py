@@ -18,7 +18,7 @@ ele2 = driver.find_element(By.XPATH, '//*[@id="app"]/div/section/main/section/se
 ele2.click()
 
 # テストの実行完了まで待機する
-sleep(15)
+sleep(30)
 
 # 終了する
-driver.quit
+driver.quit()
